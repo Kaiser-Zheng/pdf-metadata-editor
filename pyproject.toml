@@ -1,0 +1,16 @@
+[project]
+name = "pdf-metadata-editor"
+version = "0.1.0"
+description = "A simple Python tool to add metadata to PDF files using JSON configuration."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pypdf2>=3.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0",
+    "isort>=6.0.1",
+    "mypy>=1.18.2",
+]
